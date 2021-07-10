@@ -6,7 +6,7 @@
 //
 
 #import "CXPOISearchBar.h"
-#import "CXImageUtil.h"
+#import "CXImageUtils.h"
 #import <CXFoundation/CXFoundation.h>
 
 @interface CXPOISearchBar() <UITextFieldDelegate> {

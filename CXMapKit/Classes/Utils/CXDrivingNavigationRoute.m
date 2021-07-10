@@ -371,7 +371,7 @@
         _lineConfig = [CXDrivingNavigationRouteLineConfig defaultConfig];
         
         if(mapPath.requestOption.isShowTraffic){
-            NSArray *polylineColors = nil;
+            NSArray<UIColor *> *polylineColors = nil;
             MAPolyline *polyline = [self multiPolylineWithMapPath:mapPath
                                                    polylineColors:&polylineColors];
             if(polyline){

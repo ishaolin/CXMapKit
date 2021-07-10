@@ -46,6 +46,7 @@
         _tableView.dataSource = self;
         _tableView.delegate = self;
         _tableView.rowHeight = 60.0;
+        _tableView.backgroundColor = [UIColor clearColor];
         _tableView.hitTestBlock = ^UIView *(CXTableView *tableView, UIView *hitTestView, CGPoint point, UIEvent *event) {
             [[tableView cx_viewController].view endEditing:YES];
             return hitTestView;
