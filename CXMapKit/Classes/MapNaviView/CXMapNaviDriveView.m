@@ -1,6 +1,6 @@
 //
 //  CXMapNaviDriveView.m
-//  CXMapKit
+//  Pods
 //
 //  Created by lcc on 2018/6/19.
 //
@@ -8,9 +8,9 @@
 #import "CXMapNaviDriveView.h"
 #import <CXUIKit/CXUIKit.h>
 #import "CXMapWebData.h"
-#import "AMapNaviRoute+CXMapEXtensions.h"
+#import "AMapNaviRoute+CXMapKit.h"
 #import "CXLocationManager.h"
-#import "CXSpeechSynthesizer+CXMapExtensions.h"
+#import "CXSpeechSynthesizer+CXMapKit.h"
 
 @interface CXMapNaviDriveView() <AMapNaviDriveManagerDelegate, AMapNaviDriveViewDelegate, MAMapViewDelegate> {
     BOOL _canDestroyNaviDriveManager;

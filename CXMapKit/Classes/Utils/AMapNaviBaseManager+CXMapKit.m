@@ -1,14 +1,14 @@
 //
-//  AMapNaviBaseManager+CXMapExtensions.m
-//  CXMapKit
+//  AMapNaviBaseManager+CXMapKit.m
+//  Pods
 //
 //  Created by lcc on 2018/6/20.
 //
 
-#import "AMapNaviBaseManager+CXMapExtensions.h"
+#import "AMapNaviBaseManager+CXMapKit.h"
 #import <objc/runtime.h>
 
-@implementation AMapNaviBaseManager (CXMapExtensions)
+@implementation AMapNaviBaseManager (CXMapKit)
 
 - (void)setRouteOption:(CXMapRouteRequestOption *)routeOption{
     objc_setAssociatedObject(self, @selector(routeOption), routeOption, OBJC_ASSOCIATION_RETAIN_NONATOMIC);

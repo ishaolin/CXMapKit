@@ -13,13 +13,13 @@
 #import <CXFoundation/CXFoundation.h>
 #import <AMapNaviKit/AMapNaviHeaderHandler.h>
 
-@interface AMapSearchObject (CXMapExtensions)
+@interface AMapSearchObject (CXMapKit)
 
 @property (nonatomic, assign) NSUInteger count;
 
 @end
 
-@implementation AMapSearchObject (CXMapExtensions)
+@implementation AMapSearchObject (CXMapKit)
 
 - (void)setCount:(NSUInteger)count{
     objc_setAssociatedObject(self, @selector(count), @(count), OBJC_ASSOCIATION_RETAIN_NONATOMIC);

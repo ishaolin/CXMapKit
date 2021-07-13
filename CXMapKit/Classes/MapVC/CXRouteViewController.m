@@ -8,11 +8,11 @@
 #import "CXRouteViewController.h"
 #import <AMapNaviKit/AMapNaviKit.h>
 #import "CXDrivingNavigationRoute.h"
-#import "MAPolyline+CXMapExtensions.h"
-#import "AMapDrivingRouteSearchRequest+CXMapExtensions.h"
+#import "MAPolyline+CXMapKit.h"
+#import "AMapDrivingRouteSearchRequest+CXMapKit.h"
 #import "CXLocationManager.h"
-#import "AMapNaviBaseManager+CXMapExtensions.h"
-#import "AMapNaviRoute+CXMapEXtensions.h"
+#import "AMapNaviBaseManager+CXMapKit.h"
+#import "AMapNaviRoute+CXMapKit.h"
 #import <CXFoundation/CXFoundation.h>
 
 @interface CXRouteViewController () <AMapSearchDelegate, AMapNaviDriveManagerDelegate, AMapNaviRideManagerDelegate, AMapNaviWalkManagerDelegate> {

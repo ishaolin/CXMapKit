@@ -1,5 +1,5 @@
 //
-//  AMapDrivingRouteSearchRequest+CXMapExtensions.h
+//  AMapDrivingRouteSearchRequest+CXMapKit.h
 //  Pods
 //
 //  Created by wshaolin on 2017/11/22.
@@ -10,14 +10,14 @@
 
 @class CXMapRouteRequestOption;
 
-@interface AMapDrivingRouteSearchRequest (CXMapExtensions)
+@interface AMapDrivingRouteSearchRequest (CXMapKit)
 
 - (instancetype)initWithStartCoordinate:(CLLocationCoordinate2D)startCoordinate
                           endCoordinate:(CLLocationCoordinate2D)endCoordinate;
 
 @end
 
-@interface AMapRouteSearchBaseRequest (CXMapExtensions)
+@interface AMapRouteSearchBaseRequest (CXMapKit)
 
 @property (nonatomic, copy) CXMapDrawRouteCompletionHandler completionHandler;
 @property (nonatomic, strong) CXMapRouteRequestOption *routeOption;

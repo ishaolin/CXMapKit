@@ -1,6 +1,6 @@
 //
 //  CXMapNaviViewController.h
-//  CXMapKit
+//  Pods
 //
 //  Created by lcc on 2018/6/19.
 //
@@ -14,7 +14,7 @@
 
 typedef void(^CXMapNaviVCQuitCompletionBlock)(CXMapNaviViewController *naviVC, CXMapRoutePreference *preference);
 
-@interface CXMapNaviViewController : CXBaseViewController <CXMapNaviDelegate, CXAnimatedTransitioningSupportor>
+@interface CXMapNaviViewController : CXBaseViewController <CXMapNaviDelegate, CXAnimatedTransitioningSupporter>
 
 @property (nonatomic, strong, readonly) MAMapView *mapView;
 @property (nonatomic, strong, readonly) CXMapNaviParam *naviParam;

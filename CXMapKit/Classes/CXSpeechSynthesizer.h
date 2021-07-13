@@ -38,7 +38,7 @@ typedef NS_ENUM(NSUInteger, CXSpeechSynthesizerState){
 
 @end
 
-@interface AVSpeechUtterance (CXExtensions)
+@interface AVSpeechUtterance (CXMapKit)
 
 @property (nonatomic, assign) BOOL cx_force;
 

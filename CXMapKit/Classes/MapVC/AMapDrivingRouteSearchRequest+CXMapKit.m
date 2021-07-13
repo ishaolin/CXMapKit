@@ -1,14 +1,14 @@
 //
-//  AMapDrivingRouteSearchRequest+CXMapExtensions.m
+//  AMapDrivingRouteSearchRequest+CXMapKit.m
 //  Pods
 //
 //  Created by wshaolin on 2017/11/22.
 //
 
-#import "AMapDrivingRouteSearchRequest+CXMapExtensions.h"
+#import "AMapDrivingRouteSearchRequest+CXMapKit.h"
 #import <objc/runtime.h>
 
-@implementation AMapDrivingRouteSearchRequest (CXMapExtensions)
+@implementation AMapDrivingRouteSearchRequest (CXMapKit)
 
 - (instancetype)initWithStartCoordinate:(CLLocationCoordinate2D)startCoordinate endCoordinate:(CLLocationCoordinate2D)endCoordinate{
     if(self = [super init]){
@@ -26,7 +26,7 @@
 
 @end
 
-@implementation AMapRouteSearchBaseRequest (CXMapExtensions)
+@implementation AMapRouteSearchBaseRequest (CXMapKit)
 
 - (void)setCompletionHandler:(CXMapDrawRouteCompletionHandler)completionHandler{
     objc_setAssociatedObject(self, @selector(completionHandler), completionHandler, OBJC_ASSOCIATION_COPY_NONATOMIC);

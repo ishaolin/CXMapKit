@@ -1,13 +1,13 @@
 //
-//  CXSpeechSynthesizer+CXMapExtensions.m
+//  CXSpeechSynthesizer+CXMapKit.m
 //  Pods
 //
 //  Created by wshaolin on 2018/12/7.
 //
 
-#import "CXSpeechSynthesizer+CXMapExtensions.h"
+#import "CXSpeechSynthesizer+CXMapKit.h"
 
-@implementation CXSpeechSynthesizer (CXMapExtensions)
+@implementation CXSpeechSynthesizer (CXMapKit)
 
 - (BOOL)driveManagerIsNaviSoundPlaying:(AMapNaviDriveManager *)driveManager{
     return [self isSpeaking];

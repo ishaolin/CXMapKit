@@ -145,7 +145,7 @@
 
 @end
 
-@implementation AVSpeechUtterance (CXExtensions)
+@implementation AVSpeechUtterance (CXMapKit)
 
 - (void)setCx_force:(BOOL)cx_force{
     objc_setAssociatedObject(self, @selector(cx_force), @(cx_force), OBJC_ASSOCIATION_RETAIN_NONATOMIC);

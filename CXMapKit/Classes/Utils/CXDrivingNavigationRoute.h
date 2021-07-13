@@ -44,13 +44,13 @@
 
 @end
 
-@interface AMapPath (CXMapRouteExtensions)
+@interface AMapPath (CXMapKit)
 
 @property (nonatomic, strong) CXMapRouteRequestOption *requestOption;
 
 @end
 
-@interface AMapNaviPoint (CXMapRouteExtensions)
+@interface AMapNaviPoint (CXMapKit)
 
 @property (nonatomic, assign, readonly) CLLocationCoordinate2D cx_coordinate;
 

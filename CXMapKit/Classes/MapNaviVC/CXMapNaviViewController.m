@@ -1,6 +1,6 @@
 //
 //  CXMapNaviViewController.m
-//  CXMapKit
+//  Pods
 //
 //  Created by lcc on 2018/6/19.
 //
@@ -12,7 +12,7 @@
 #import "CXMapNaviWalkView.h"
 #import "CXMapPOIModel.h"
 #import "CXMapRouteRequestOption.h"
-#import "AMapNaviRoute+CXMapEXtensions.h"
+#import "AMapNaviRoute+CXMapKit.h"
 #import "CXMapSpeedView.h"
 #import "CXMapRoutePreferenceView.h"
 

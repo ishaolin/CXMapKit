@@ -23,7 +23,7 @@
 #import "CXBubbleAnnotationView.h"
 #import "CXUserLocationView.h"
 #import "CXMapRouteRequestOption.h"
-#import "AMapNaviRoute+CXMapEXtensions.h"
+#import "AMapNaviRoute+CXMapKit.h"
 #import "CXMapNaviParam.h"
 #import "CXMapNaviViewController.h"
 #import "CXBubbleAnnotation.h"

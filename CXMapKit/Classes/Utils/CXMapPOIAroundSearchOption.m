@@ -1,6 +1,6 @@
 //
 //  CXMapPOIAroundSearchOption.m
-//  CXMapKit
+//  Pods
 //
 //  Created by lcc on 2018/7/4.
 //

@@ -10,10 +10,10 @@
 #import <AMapSearchKit/AMapSearchKit.h>
 #import "CXLocationManager.h"
 #import "CXMapRouteUtils.h"
-#import "MAPolyline+CXMapExtensions.h"
+#import "MAPolyline+CXMapKit.h"
 #import <CXUIKit/CXUIKit.h>
 #import <objc/runtime.h>
-#import "AMapNaviRoute+CXMapEXtensions.h"
+#import "AMapNaviRoute+CXMapKit.h"
 
 @interface CXDrivingNavigationRoute(){
     NSMutableArray<MAPolyline *> *_mutablePolylines;
@@ -519,7 +519,7 @@
 
 @end
 
-@implementation AMapPath (CXMapRouteExtensions)
+@implementation AMapPath (CXMapKit)
 
 - (void)setRequestOption:(CXMapRouteRequestOption *)requestOption{
     objc_setAssociatedObject(self, @selector(requestOption), requestOption, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
@@ -531,7 +531,7 @@
 
 @end
 
-@implementation AMapNaviPoint (CXMapRouteExtensions)
+@implementation AMapNaviPoint (CXMapKit)
 
 - (CLLocationCoordinate2D)cx_coordinate{
     return CLLocationCoordinate2DMake(self.latitude, self.longitude);

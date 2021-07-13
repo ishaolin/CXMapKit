@@ -1,6 +1,6 @@
 //
-//  AMapNaviBaseManager+CXMapExtensions.h
-//  CXMapKit
+//  AMapNaviBaseManager+CXMapKit.h
+//  Pods
 //
 //  Created by lcc on 2018/6/20.
 //
@@ -10,7 +10,7 @@
 
 @class CXMapRouteRequestOption;
 
-@interface AMapNaviBaseManager (CXMapExtensions)
+@interface AMapNaviBaseManager (CXMapKit)
 
 @property (nonatomic, strong) CXMapRouteRequestOption *routeOption;
 @property (nonatomic, copy) CXMapDrawNaviRouteCompletionHandler completionHandler;
