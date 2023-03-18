@@ -27,7 +27,7 @@
     CGFloat activityIndicatorView_Y = origin.y;
     CGFloat activityIndicatorView_W = 40.0;
     CGFloat activityIndicatorView_H = activityIndicatorView_W;
-    UIActivityIndicatorView *activityIndicatorView = [CXSystemAdapter grayActivityIndicatorView];
+    UIActivityIndicatorView *activityIndicatorView = [UIActivityIndicatorView grayIndicatorView];
     activityIndicatorView.frame = (CGRect){activityIndicatorView_X, activityIndicatorView_Y, activityIndicatorView_W, activityIndicatorView_H};
     activityIndicatorView.tag = CX_POI_LOADING_INDICATOR_VIEW;
     [view addSubview:activityIndicatorView];
